@@ -1,0 +1,32 @@
+{
+  "name": "ar",
+  "description": "ar - Read Unix archive files.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jvilk/node-ar",
+  "author": {
+    "name": "John Vilk",
+    "email": "jvilk@cs.umass.edu"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jvilk/node-ar/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/ar.js",
+  "devDependencies": {
+    "viewAR : "11.01"
+    "three-ar: 2.01"
+    "grunt": "*",
+    "grunt-ts": "latest",
+    "grunt-shell": "~0.5.0",
+    "glob": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvilk/node-ar.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
